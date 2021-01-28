@@ -4,18 +4,18 @@ var score=0
 var gamestate="play"
 var lifeline=1
 function preload(){
-  pacmanimage=loadImage("images/pacman.png")
-  backgroundimg=loadImage("images/Bg.png")
-  ghost1img=loadImage("images/ghost1.png")
-  ghost2img=loadImage("images/ghost2.png")
-  ghost3img=loadImage("images/ghost3.png")
-  ghost4img=loadImage("images/ghost4.png")
-  eat=loadSound("images/eat2sound.mp3")
+  pacmanimage=loadImage("../images/pacman.png")
+  backgroundimg=loadImage("../images/Bg.png")
+  ghost1img=loadImage("../images/ghost1.png")
+  ghost2img=loadImage("../images/ghost2.png")
+  ghost3img=loadImage("../images/ghost3.png")
+  ghost4img=loadImage("../images/ghost4.png")
+  eat=loadSound("../images/eat2sound.mp3")
   cherryimage=loadImage("cherry.png")
-  die=loadSound("images/diesound.mp3")
-  restartimage=loadImage("images/restart.jpg")
-  trophyImage=loadImage("images/trophy.png")
-  gameoverimage=loadImage("images/gameover.png")
+  die=loadSound("../images/diesound.mp3")
+  restartimage=loadImage("../images/restart.jpg")
+  trophyImage=loadImage("../images/trophy.png")
+  gameoverimage=loadImage("../images/gameover.png")
 }
 
 function setup() {
